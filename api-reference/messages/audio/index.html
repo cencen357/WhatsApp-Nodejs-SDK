@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WhatsApp Node.js SDK - Audio Messages API Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Audio Messages API Reference</h1>
+    <p>
+        Welcome to the WhatsApp Node.js SDK Audio Messages API documentation.
+    </p>
+    <section>
+        <h2>Send Audio Message</h2>
+        <pre>
+POST /messages/audio
+
+Request Body Example:
+{
+    "to": "recipient_phone_number",
+    "audio": {
+        "url": "https://example.com/audio-file.ogg"
+    }
+}
+        </pre>
+        <p>
+            Use this endpoint to send an audio message to a WhatsApp user.
+        </p>
+    </section>
+</body>
+</html>
